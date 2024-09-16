@@ -6,5 +6,5 @@ import (
 )
 
 func HomeController(w http.ResponseWriter, r *http.Request) {
-	utils.JSONResponse(w, http.StatusOK, "Welcome to My App!")
+	utils.JSONResponse(w, http.StatusOK, "Hello this is first test")
 }
